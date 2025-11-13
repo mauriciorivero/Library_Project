@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Biblioteca SENA</h1>
+    </header>
+    <main>
+        <section>
+            <div class="formulario">
+                <input id="titulo" type="text" placeholder="Digita el titulo del libro">
+                <input id="isbn" type="text" placeholder="Digita el ISBN">
+                <input id="autor" type="text" placeholder="Digita el autor del libro">
+                <input id="year" type="text" name="" placeholder="Digita el ano">
+                <input id="numeroPaginas" type="number" placeholder="Digita el numero de paginas">
+                <select name="" id="disponible">
+                    <option value="disponible" selected>Disponible</option>
+                    <option value="no_disponible">No Disponible</option>
+                </select>
+                <button>
+                    <h3>Guardar Libro</h3>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+
+    <script src="model/Libro.js"></script>
+    <script src="model/controlBiblioteca.js"></script>
+    <script src="js/comportamiento.js"></script>
+</body>
+</html>

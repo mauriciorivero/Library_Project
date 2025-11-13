@@ -1,0 +1,1 @@
+console.log("Los saluda el "+nombre+" con "+edad+" anos de edad");

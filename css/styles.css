@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    border: solid 2px gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    width: 900px;
+}
+
+.formulario>input::placeholder{
+    text-align: center;
+}
