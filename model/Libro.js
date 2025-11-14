@@ -85,4 +85,3 @@ class Libro{
 
 }
 
-module.exports = Libro;

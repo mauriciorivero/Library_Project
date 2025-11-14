@@ -1,4 +1,4 @@
-const Libro = require('./model/Libro');
+let libros = [];
 
 document.getElementById('botonGuardarLibro').onclick = function(){
     const titulo = document.getElementById('titulo').value;
@@ -9,5 +9,8 @@ document.getElementById('botonGuardarLibro').onclick = function(){
     const esDisponible = document.getElementById('disponible').value;
     
     const libro = new Libro(titulo, isbn, autor, ano, numeroPaginas, esDisponible);
-    alert(libro.titulo+" "+libro.autor);
+    alert(libro.title+" "+libro.author);
+    libros.push(libro);
+
 }
+    
